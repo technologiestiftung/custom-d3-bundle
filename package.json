@@ -1,0 +1,27 @@
+{
+  "name": "custom-d3-bundle",
+  "version": "1.0.0",
+  "description": "build a custom d3 bundle",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "rollup -c && uglifyjs d3.js -c -m -o d3.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technologiestiftung/custom-d3-bundle.git"
+  },
+  "keywords": [
+    "d3"
+  ],
+  "author": "sebastian-meier @seb_meier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/technologiestiftung/custom-d3-bundle/issues"
+  },
+  "homepage": "https://github.com/technologiestiftung/custom-d3-bundle#readme",
+  "devDependencies": {
+    "rollup": "0.36",
+    "rollup-plugin-node-resolve": "2",
+    "uglify-js": "2"
+  }
+}

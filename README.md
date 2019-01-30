@@ -22,6 +22,12 @@ export {
 } from "d3-selection";
 ```
 
+Make sure you have all required d3 packages installed:
+
+```
+npm install d3-selection --save-dev
+```
+
 Then run 
 
 ```
