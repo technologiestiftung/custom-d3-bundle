@@ -4,7 +4,7 @@
   "description": "build a custom d3 bundle",
   "main": "index.js",
   "scripts": {
-    "prepublish": "rollup -c && uglifyjs d3.js -c -m -o d3.min.js"
+    "prepublish": "rollup -c && uglifyjs dist/d3.js -c -m -o dist/d3.min.js"
   },
   "repository": {
     "type": "git",
