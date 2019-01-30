@@ -35,3 +35,21 @@ npm run prepublish
 ```
 
 Voila.
+
+
+## Note
+
+If you haven't worked much with es modules here are a few tips, in order to know which modules to import or rather import from, check the d3 repo and wiki. For example if you are interested where d3.csv comes from a quick search tells you: https://github.com/d3/d3-fetch
+
+Importing from multiple files:
+
+```
+export {
+  select,
+  selectAll
+} from "d3-selection";
+
+export {
+  csv
+} from "d3-fetch";
+```
