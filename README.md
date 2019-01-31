@@ -1,4 +1,7 @@
 # custom-d3-bundle
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/technologiestiftung/custom-d3-bundle.svg)](https://greenkeeper.io/)
+
 D3 is pretty amazing, but as a dependency its also pretty heavy. In most cases you only need a small subset of what d3 has to offer. So creating a small custom bundle can improve load time.
 
 This repo is based upon Mike Bostock's instructions for custom bundles:
