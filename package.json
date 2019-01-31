@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/technologiestiftung/custom-d3-bundle#readme",
   "devDependencies": {
-    "rollup": "0.36",
-    "rollup-plugin-node-resolve": "2",
-    "uglify-js": "2"
+    "rollup": "~1.1.2",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "uglify-js": "^3.4.9"
   }
 }
